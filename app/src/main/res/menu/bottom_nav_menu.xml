@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_action_home"
+        android:title="主页" />
+
+    <item
+        android:id="@+id/navigation_message"
+        android:icon="@drawable/ic_action_monolog"
+        android:title="消息" />
+
+    <item
+        android:id="@+id/navigation_notes"
+        android:icon="@drawable/ic_action_tag"
+        android:title="笔记" />
+
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@drawable/ic_action_user"
+        android:title="我" />
+
+</menu>

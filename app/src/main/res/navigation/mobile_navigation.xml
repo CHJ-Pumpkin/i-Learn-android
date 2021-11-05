@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.a209350309.i_learn.ui.home.HomeFragment"
+        android:label="主页"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_message"
+        android:name="com.a209350309.i_learn.ui.message.MessageFragment"
+        android:label="消息"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/navigation_notes"
+        android:name="com.a209350309.i_learn.ui.notes.NotesFragment"
+        android:label="笔记"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/navigation_me"
+        android:name="com.a209350309.i_learn.ui.me.MeFragment"
+        android:label="我"
+        tools:layout="@layout/fragment_me" />
+</navigation>
